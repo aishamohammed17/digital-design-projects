@@ -36,14 +36,47 @@ Transient simulations were performed to measure switching characteristics.
 - rise time  
 - fall time  
 
-## Results
+## CMOS Inverter (INVx1)
 
-tpdr = 82 ps  
-tpdf = 79 ps  
-rise time = 104 ps  
-fall time = 109 ps
+### Schematic
+[paste image]
 
-## Key Learnings
-- CMOS sizing tradeoffs  
-- delay dependence on load capacitance  
-- layout impact on parasitics
+### Layout
+[paste image]
+
+### Transient Simulation
+[paste waveform]
+
+---
+
+## NAND2 Gate
+
+### Schematic
+[paste]
+
+### Layout
+[paste]
+
+### Simulation
+[paste]
+
+---
+
+## NOR2 Gate
+
+### Schematic
+[paste]
+
+### Layout
+[paste]
+
+### Simulation
+[paste]
+
+---
+
+### Results
+## Observations
+- PMOS devices require larger widths to balance pull-up strength  
+- NAND gates typically exhibit faster falling transitions due to parallel NMOS devices  
+- NOR gates tend to have slower rising transitions due to series PMOS devices
